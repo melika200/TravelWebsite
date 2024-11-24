@@ -1,3 +1,7 @@
+import Clients from "../Components/PopularDestination/Client";
+import PopularDestination from "../Components/PopularDestination/PopularDestination";
+import Services from "../Components/PopularDestination/Services";
+
 export default function Home() {
   return (
     <>
@@ -17,6 +21,9 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <PopularDestination/>
+      <Services/>
+      <Clients/>
     </>
   );
 }
