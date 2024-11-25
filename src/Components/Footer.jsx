@@ -21,8 +21,8 @@ export default function Footer(){
                 </div>
             </div>
             <div>
-                <h3 className="flex flex-row space-x-4 mb-4">Follow Us</h3>
-                <div>
+                <h3 className=" mb-4">Follow Us</h3>
+                <div className="flex flex-row space-x-4 mb-4">
                     <FaFacebookF size={24} className="text-blue-500 hover:text-blue-600"/>
                     <FaInstagram size={24} className="text-pink-500 hover:text-pink-600"/>
                     <FaTwitter size={24} className="text-blue-400 hover:text-blue-500"/>
@@ -35,7 +35,7 @@ export default function Footer(){
             </div>
         </div>
         <div className="flex justify-between mt-8 border-t border-gray-700 pt-4">
-            <div className="flex justify-between border-t">
+            <div className="flex justify-between ">
                 <p>&copy; 2024 Travel Agency. All rights reserved.</p>
                 <div>
                     <Link to="">Privacy Policy</Link>
